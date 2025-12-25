@@ -11,7 +11,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: vecstatus.floretson.xyz
   # baseUrl: /jcohoon/vec-status
-  logoUrl: https://raw.githubusercontent.com/jcohoon/vec-status/master/assets/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/jcohoon/vec-status/master/assets/vecstatus-logo-left.svg
   name: Virginia Employment Commission Claimant Self-Service Site Status
   introTitle: "**Service status & uptime**"
   introMessage: >
