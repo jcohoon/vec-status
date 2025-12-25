@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .teal { stroke: #2FB7A8; }
+      .yellow { fill: #FFD54A; }
+      .yellow2 { fill: #F4B930; }
+      .navy { fill: #0B2A44; }
+    </style>
+  </defs>
+
+  <!-- Check mark -->
+  <path d="M140 318 L230 404 L384 244"
+        fill="none"
+        class="teal"
+        stroke-width="74"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Canary (simple, cute) -->
+  <g transform="translate(0,0)">
+    <!-- tail -->
+    <path class="yellow2" d="M92 288 L138 256 L130 318 Z" opacity="0.95"/>
+    <!-- body -->
+    <ellipse class="yellow" cx="182" cy="274" rx="122" ry="88"/>
+    <!-- head -->
+    <circle class="yellow" cx="256" cy="214" r="62"/>
+    <!-- wing -->
+    <path class="yellow2"
+          d="M156 272
+             C186 246, 238 250, 264 284
+             C240 324, 186 336, 148 308
+             C140 296, 144 284, 156 272 Z" opacity="0.95"/>
+    <!-- belly highlight -->
+    <path d="M118 300 C140 340, 206 360, 260 324"
+          fill="none"
+          stroke="#FFE37A"
+          stroke-width="18"
+          stroke-linecap="round"
+          opacity="0.55"/>
+    <!-- beak -->
+    <path d="M314 218 L360 200 L318 186 Z" fill="#F0B21A"/>
+    <!-- eye -->
+    <circle class="navy" cx="282" cy="206" r="10"/>
+  </g>
+</svg>
