@@ -15,10 +15,12 @@ status-website:
   name: Virginia Employment Commission Claimant Self-Service Site Status
   introTitle: "**Service status & uptime**"
   introMessage: >
-    This page shows the current and historical availability of the VEC Claimant
-    Self-Service site. Automated checks run at regular intervals, and outages are
+    Current and historical availability of the VEC Claimant Self-Service 
+    site. Automated checks run at regular intervals, and outages are
     recorded over time to provide a clear view of reliability and response
     performance.
+    This site is not affiliated with or endorsed by the Virginia Employment
+    Commission or the government of the Commonwealth of Virginia.
   navbar:
     - title: Status
       href: /
